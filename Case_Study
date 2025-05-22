@@ -1,0 +1,44 @@
+Team background	Quantitative Research operates as the strategic powerhouse within Strategy and Analytics, functioning analogously to hedge fund managers and investment bankers. Our specialized focus lies in the intricate realms of pricing and portfolio management for digital ad inventories, alongside yield management and bid optimization. This involves strategically selecting, optimizing, and managing all digital advertising assets to maximize overall performance and revenue. 
+Your Role: Auction Pricing Manager	"You’ve been hired to design a dynamic pricing system for Auction Banner Ads. Your goal:
+
+Maximize revenue without sacrificing advertiser success.
+Use data to influence how we price inventory (especially floor CPMs).
+Show business impact with clear, defendable logic."
+Data Context	The dummy data is a snapshot from the ad server. It’s meant to mimic real-world auction dynamics. Use the data dictionary for definitions. 
+Preferred tools to be used	Python, Tableau, MS. Excel & Power Point
+Submission requirements	"1. Python/SQL code showing the code for data import, cleaning, EDA, different statistical models applied, etc. (Technical skills evaluation) 
+2. Tableau or Ppt presentation which showcases model output and recommendation (Business skills evaluation)"
+Technical Grading	"Data Understanding & Exploration
+Summarize the dataset and key metrics relevant to auction pricing.
+Identify patterns in bids, impressions, etc.
+Use visuals to highlight trends that can inform pricing (e.g., time of day, seasonality).
+
+Preprocessing & Feature Engineering
+Clean the data and handle missing or inconsistent entries.
+Create relevant features as needed. 
+Transform data as needed for modeling (e.g., scaling, encoding).
+
+Modeling & Evaluation
+Choose a model to predict optimal bid prices or win likelihoods (e.g., regression, decision trees).
+Tune parameters for best performance.
+Use cross-validation and appropriate metrics (e.g., RMSE, lift in revenue).
+
+Pricing Recommendation
+Use the model to suggest optimal bid floors (min bid/cpm) and subsequently what you feel the winning bid will look like. (This is the most important part of the case study)
+Successful candidate should capture the impact of seasonality in deciding the floors. 
+
+Code & Communication
+Provide clean, well-commented code.
+Present insights clearly for both technical and business audiences."
+"Business Grading 
+(This is a leadership role)"	"What is your recommendation around how we should price the Auction inventory and what should be the minimum bid (CPM)? 
+You must show some pre post incremental revenue lift based on what you propose and what the BAU is. 
+How can raising the min bid help and hurt our business? "
+Additional Notes	"1. Please call out all the assumptions that you will be making through the analysis
+2. But it is STRICTLY an individual assignment and should not be discussed, shared or distributed. "
+How does a successful case study look like	Case study will be the primary decision making point, please attempt this with care. 
+	Are We Leaving Money on the Table? Analyze current CPMs to determine if there are opportunities to increase revenue.
+	Are The Floor CPMs Too High or Too Low? Analyze current Floor CPMs to determine if there are opportunities to increase revenue.
+	Are There Ways To Handle Demand Peaks & Troughs More Efficiently or Profitably? Identify demand peaks and troughs and ways to optimize yield / profitability / revenues.
+	Optimization of Pricing - Explore ways to optimize pricing strategies. Feel free to make assumptions, if needed. What drives pricing in the digital advertising industry?
+	Yield Optimization - Illustrate the concept of yield optimization and identify areas where it could be applied.
