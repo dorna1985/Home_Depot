@@ -1,0 +1,32 @@
+
+Auction Pricing Case Study - Step-by-Step Summary
+
+1. Data Cleaning:
+   - Dropped rows with missing CPM, impressions, sales
+   - Converted date and engineered week, month, year
+   - Created new metrics like revenue per impression and CPM delta
+
+2. Feature Engineering:
+   - CTR proxy (impressions / traffic)
+   - Encoded category (taxonomy)
+
+3. Model Training:
+   - Used RandomForestRegressor
+   - Validated model with RMSE and R²
+
+4. Interpretability:
+   - Calculated Information Value (IV) using mutual information
+
+5. Pricing Recommendation:
+   - Used predicted CPM to set floor CPM at 25th percentile
+   - Simulated revenue uplift from floor enforcement
+
+6. Visualizations:
+   - Time series trends (CPM, impressions)
+   - Feature IV scores
+
+7. Deliverables:
+   - Cleaned Excel data
+   - Python scripts
+   - Presentation deck (separate file)
+   - Visuals (generated manually after running scripts)
